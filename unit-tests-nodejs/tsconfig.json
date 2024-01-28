@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext",
+    "lib": ["ES2015"],
+    "moduleResolution": "Node",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@test/*": ["./src/__tests__/*"]
+    }
+  }
+}
